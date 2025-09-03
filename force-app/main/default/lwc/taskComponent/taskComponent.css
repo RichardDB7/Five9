@@ -1,0 +1,117 @@
+.center-text {
+    text-align: center;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+
+/* 🔥 Estilos mejorados para la tabla */
+.custom-card {
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-row {
+    background-color: #f3f3f3;
+    font-weight: bold;
+    text-align: left;
+}
+
+.data-row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.data-row:hover {
+    background-color: #e3e3e3;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.ver-button {
+    color: #0070d2; /* Azul estándar de Salesforce */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    border: 1px solid #d8dde6; /* 🔥 Borde como el de la imagen */
+    background: white;
+    padding: 2px 8px; /* 🔥 Ajuste de espacio interno */
+    border-radius: 4px; /* 🔥 Bordes redondeados */
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    min-width: 50px; /* 🔥 Para que no se deforme */
+}
+
+.ver-button:hover {
+    background-color: #f3f3f3; /* 🔥 Efecto hover ligero */
+    border-color: #c0c6cc;
+}
+
+
+/* 🔥 Ajuste para que haya más espacio entre columnas */
+.slds-table th, .slds-table td {
+    padding: 10px 18px; /* 🔥 MÁS espacio entre columnas */
+    white-space: nowrap; /* 🔥 Evita que el texto se corte en varias líneas */
+}
+
+/* 🔥 Ajuste de márgenes para columnas específicas */
+.slds-table td:nth-child(4),
+.slds-table th:nth-child(4) {
+    padding-left: 10px; /* 🔥 Más espacio para "Tipo de Tarea" */
+}
+
+.slds-table td:nth-child(5),
+.slds-table th:nth-child(5) {
+    padding-left: 15px; /* 🔥 Más espacio para "Tipificación" */
+}
+
+.slds-table td:nth-child(6),
+.slds-table th:nth-child(6) {
+    padding-right: 20px; /* 🔥 Más espacio para "Fecha y Hora" */
+}
+
+/* 🔥 Separar "Agente" de "Fecha y Hora" */
+.slds-table td:nth-child(7),
+.slds-table th:nth-child(7) {
+    padding-left: 15px; /* 🔥 Más espacio para "Agente" */
+}
+
+/* 🔥 Separar "Ir a la tarea" */
+.slds-table td:nth-child(8),
+.slds-table th:nth-child(8) {
+    padding-left: 15px; /* 🔥 Más espacio para "Ir a la tarea" */
+}
+
+/* 🔥 Evita que la tabla se desborde */
+.table-container {
+    overflow-x: auto; /* 🔥 Hace la tabla desplazable si es necesario */
+    max-width: 100%; /* 🔥 Asegura que la tabla no sobrepase su contenedor */
+}
+
+/* 🔥 Ajustes para evitar desbordes */
+.slds-table {
+    table-layout: auto !important; /* 🔥 Permite que las columnas se ajusten dinámicamente */
+    width: 100%; /* 🔥 Asegura que la tabla use todo el espacio disponible */
+    min-width: 700px; /* 🔥 Evita que la tabla colapse en pantallas pequeñas */
+}
+
+/* 🔥 Ajustes de columnas para evitar cortes */
+.slds-table th, .slds-table td {
+    padding: 10px;
+    white-space: nowrap; /* 🔥 Evita saltos de línea inesperados */
+    text-align: center;
+}
+
+/* 🔥 Se asegura de que la tabla se mantenga dentro del contenedor */
+.custom-card {
+    max-width: 100%;
+    overflow: hidden;
+}
